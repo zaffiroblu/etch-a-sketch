@@ -1,0 +1,49 @@
+html,
+body {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	height: 100%;
+	margin: 5%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-and-buttons {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	padding: 2%;
+	margin: 3%;
+}
+
+.container {
+	display: flex;
+}
+
+.frame {
+	height: 650px;
+	width: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.row > div {
+	border: 1px solid black;
+	flex: 1 1 auto;
+}
+
+.filled {
+	background-color: black;
+}
